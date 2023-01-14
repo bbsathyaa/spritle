@@ -1,0 +1,30 @@
+<div class="mbody">
+    <div class="mcontain">
+        <div class="header">
+            <h1><span class="material-symbols-outlined">school</span> Student Page</h1>
+            <form [formGroup]="studentname">
+                <input type="text" name="studentname" formControlName="studentname" readonly>
+                <input type="text">
+            </form>
+            <button (click)="logout()">Logout</button>
+        </div>
+        <div class="data">
+            <div class="Student">
+                <h4>Result</h4>
+                <form [formGroup]="opeartion">
+                    <input type="text" placeholder="Operation" name="operationbox1" formControlName="operationbox1">
+                    <button (click)="opbox1()">Send Data</button> 
+                    <input type="text" style="width: 100px;" disabled placeholder="Result" [value]="opbox1out">
+
+                    <input type="text" placeholder="Operation" name="operationbox2" formControlName="operationbox2">
+                    <button (click)="opbox2()">Send Data</button>
+                    <input type="text" style="width: 100px" disabled placeholder="Result" [value]="opbox2out">
+
+                    <input type="text" placeholder="Operation" name="operationbox3" formControlName="operationbox3">
+                    <button (click)="opbox3()">Send Data</button>
+                    <input type="text" style="width: 100px;" disabled placeholder="Result" [value]="opbox3out">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

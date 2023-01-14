@@ -1,0 +1,112 @@
+.mbody{
+    width: 700px;
+    height: 550px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-bottom: 5px solid rgb(22, 22, 22);
+    border-right: 5px solid rgb(22, 22, 22);
+    border-bottom: 5px solid rgb(22, 22, 22);
+    border-right: 5px solid rgb(22, 22, 22);
+    border-radius: 15px;
+}
+.mbody .mcontain{
+    width: 100%;
+    height: 100%;
+    background-color:#C0C0C0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.mbody .mcontain .header{
+    width: 100%;
+    height: 122px;
+    padding: 36px;
+}
+.mbody .mcontain .header h1 span{
+    font-size: 27px;
+}
+.mbody .mcontain .header h1{
+    color: white;
+    background-color: #00007B;
+    margin-bottom: 10px;
+}
+.mbody .mcontain .header form{
+    display: inline-block;
+}
+.mbody .mcontain .header form input{
+    margin-top: 10px;
+    margin-right: 60px;
+    width: 200px;
+    height: 30px;
+    font-size: large;
+    outline: none;
+}
+.mbody .mcontain .header button{
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+}
+.mbody .mcontain .data{
+    width: 100%;
+    height: 428px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mbody .mcontain .data .Student{
+    width: 100%;
+    height: 370px;
+    padding: 15px;
+    border:1px solid black;
+    padding: 70px 0px 70px 100px;
+}
+.mbody .mcontain .data .Result{
+    width: 30%;
+    height: 370px;
+    padding: 15px;
+    border:1px solid black;
+    margin: 37px;
+    
+}
+.mbody .mcontain .data .Student{
+    
+    border-radius: 5px 0px 0px 5px;
+}
+.mbody .mcontain .data .Avtivities{
+    border-left: none;
+    border-right: 1px solid black;
+    border-radius: 0px 5px 5px 0px
+}
+.mbody .mcontain .data .Result{
+    border: none;
+}
+.mbody .mcontain .data .mbox1 h4{
+    margin-bottom: 10px;
+}
+.mbody .mcontain .data .mbox1 input{
+    width: 185px;
+    height: 30px;
+    outline: none;
+    margin-bottom: 40px;
+    border: none;
+    display: inline;
+    border-top: 2px solid rgb(22, 22, 22);
+    border-left: 2px solid rgb(22, 22, 22);
+}
+.mbody .mcontain .data .Student input{
+    width: 345px;
+    height: 30px;
+    outline: none;
+    margin-bottom: 40px;
+    border: none;
+    padding-left: 2px;
+    border-top: 2px solid rgb(22, 22, 22);
+    border-left: 2px solid rgb(22, 22, 22);
+}
+.mbody .mcontain .data .Student button{
+    margin:10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;   
+}

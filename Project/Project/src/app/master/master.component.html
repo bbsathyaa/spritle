@@ -1,0 +1,41 @@
+<div class="mbody">
+    <div class="mcontain">
+        <div class="header">
+            <h1><span class="material-symbols-outlined">diversity_3</span>Master Page</h1>
+            <form [formGroup]="mastername">
+                <input type="text" name="mastername" formControlName="mastername" readonly>
+                <input type="text">
+            </form>
+            <button (click)="logout()">Logout</button>
+        </div>
+        <div class="data">
+            <div class="Student mbox1">
+                <h4>Student Name</h4>
+                <form>
+                    <input type="text" placeholder="Username" readonly [value]="stdname1">
+                    <input type="text" placeholder="Username" readonly [value]="stdname2">
+                    <input type="text" placeholder="Username" readonly [value]="stdname3">
+                    <input type="text" placeholder="Username" readonly [value]="stdname4">
+                </form>
+            </div>
+            <div class="Avtivities mbox1">
+                <h4>Operation/Activity Log</h4>
+                <form>
+                    <input type="text" placeholder="Function()" readonly [value]="funstring1">
+                    <input type="text" placeholder="Function()" readonly [value]="funstring2">
+                    <input type="text" placeholder="Function()" readonly [value]="funstring3">
+                    <input type="text" placeholder="Function()" readonly [value]="funstring4">
+                </form>
+            </div>
+            <div class="Result mbox1">
+                <h4>Result</h4>
+                <form>
+                    <input type="text" placeholder="Result" readonly [value]="Resultbox1">
+                    <input type="text" placeholder="Result" readonly [value]="Resultbox2">
+                    <input type="text" placeholder="Result" readonly [value]="Resultbox3">
+                    <input type="text" placeholder="Result" readonly [value]="Resultbox4">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

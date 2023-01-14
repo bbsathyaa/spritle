@@ -1,0 +1,169 @@
+.inner{
+    width: 1360px;
+    height: 645px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inner .box{
+    width: 350px;
+    height: 400px; 
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.inner .box .loorre{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+.inner .box .loorre button:nth-child(1){
+background-color: #009432;
+color: #fff;
+}
+.inner .box .loorre button:nth-child(2){
+    background-color:#eb2f06;
+    color: #fff;
+}
+.inner .box .loorre button{
+    width: 50%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.inner .box .inputs h1{
+    margin: 15px;
+    color: #34495e;
+    position: relative;
+}
+.inner .box .inputs h1::before
+{
+    content: "";
+    width: 30px;
+    height: 2px;
+    border-radius: 1px;
+    position: absolute;
+    bottom: 0;
+    background-color: #9b59b6;
+}
+.inner .box .inputs select{
+    margin: 5%;
+    width: 90%;
+    height: 30px;
+    outline: none;
+    border: none;
+    color: #34495e;
+    border-bottom:1px solid #34495e ;
+}
+.inner .box .inputs input{
+    margin: 5%;
+    width: 90%;
+    height: 30px;
+    outline: none;
+    border: none;
+    color: #34495e;
+    border-bottom:1px solid #34495e ;
+}
+.inner .box .inputs button{
+    width: 150px;
+    height: 40px;
+    margin: 15px;
+    margin-left: 100px;
+    font-size: medium;
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    border-radius:10px ;
+    color: #009432;
+    background-color: #fff;
+    border: 1px solid #009432;
+    cursor: pointer;
+    transition: 0.5s ease;
+    box-shadow: #72e99a 0px 5px 15px;
+}
+.inner .box .inputs button:hover{
+    color:#fff;
+    background-color: #009432;
+}
+.box1{
+    width: 100%;
+    height: 100%;
+}
+.box1 .content{
+    display: flex;
+    flex-direction: column;
+    width: 315px;
+    height: auto;
+    margin: 15px;
+}
+.box1 .content h1{
+    margin: 2px;
+    margin-bottom: 2px;
+    color:#34495e;
+    position: relative;
+}
+.box1 .content h1::before{
+    content: "";
+    width: 30px;
+    height: 2px;
+    border-radius: 1px;
+    position: absolute;
+    bottom: 0;
+    background-color: #9b59b6;
+}
+.box .content form input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #34495e ;
+}
+.box1 .content form select{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #34495e;
+}
+.box1 .content button{
+    width: 150px;
+    height: 40px;
+    margin: 15px;
+    margin-left: 100px;
+    font-size: medium;
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    border-radius:10px ;
+    color: #eb2f06;
+    background-color: #fff;
+    border: 1px solid #eb2f06;
+    cursor: pointer;
+    transition: 0.5s ease;
+    box-shadow: #d89282 0px 5px 15px;
+}
+.box1 .content button:hover{
+    color:#fff;
+    background-color: #eb2f06;
+}
+.box .inputs p{
+    color:red;
+    margin-top: -10px;
+    text-align: center;
+    display: none;
+}
+.box1 .content p{
+    color: green;
+    font-size: small;
+    margin-top: -12px;
+    text-align: center;
+    display: none;
+}
+#invalid{
+    color: red;
+}
